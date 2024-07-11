@@ -1,0 +1,19 @@
+#include <iostream>
+#include<string>
+using namespace std;
+int main ()
+{string cars;
+cout<<"Please enter your prefer car name";
+cin>>cars;
+if(cars== "benz"){
+    cout<<"your car name is benz"<<endl;
+}
+else if(cars == "CRV"){
+    cout<<" it is benz man"<<endl;
+}
+else {
+    cout<<"it is not a name of car";
+}
+
+ return 0;
+}
