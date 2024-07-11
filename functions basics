@@ -1,0 +1,19 @@
+//functions basics
+#include <iostream>
+using namespace std;
+int divide (int m, int n=2)
+{
+ int r;
+ r=m/n;
+ return (r);
+}
+int main ()
+{
+ cout << divide (12);
+ cout << endl;
+ cout << divide (20,4)<<endl;
+ cout<< divide(100,5);
+ return 0;
+
+
+}
