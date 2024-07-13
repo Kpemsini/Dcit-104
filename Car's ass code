@@ -1,0 +1,19 @@
+// program that ask for names of cars and store in library
+#include <iostream>>
+#include <string>
+#include<vector>
+using namespace std;
+int main(){
+    std::vector<std::string>library;
+    std::cout<<"Enter car names (type 'quit' to stop):"<<std::endl;
+    while (true){std::string car;
+    std::cout<<"CAR:";
+    std::getline(std::cin, car);
+    if(car == "quit")break;
+    library.push_back(car);}
+
+    std::cout<<"\nCar Library"<< std::endl;
+    for(const std::string&car:library){
+        std::cout<<car<<std::endl;
+    }
+    return 0;
